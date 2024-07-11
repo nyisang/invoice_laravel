@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3f8ceb;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar {
+    background-color: #3f8ceb;
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-bar ul li:last-child {
+    margin-right: 0;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.menu-bar ul li a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+/* Add this CSS to your existing stylesheet or create a new one */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Background color for header cells */
+    color: #333; /* Text color for header cells */
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+  }
+  
+  /* Optional: Hover effect for table rows */
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
